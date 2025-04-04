@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dsndwnf24/image/upload/v1743749118/istockphoto-1271863211-612x612_mwgmvp.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.toDoList{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    font-size: 2.5 em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 2, 37);
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 5px;
+    color: aliceblue;
+    font-size: 0.7 em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.addTask{
+    background-color: rgb(30, 164, 32);
+}
+.addTask:hover{
+    background-color: rgb(62, 187, 89);
+}
+.delete{
+    background-color: rgb(206, 5, 5);
+}
+.delete:hover{
+    background-color: rgb(240, 28, 64);
+}
+.move{
+    background-color: rgb(25, 95, 180);
+}
+.move:hover{
+    background-color: rgb(62, 109, 218);
+}
+#input{
+    font-size: 1.4em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(161, 157, 157);
+}
+ol{
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(237, 234, 234);
+    border: 2px solid rgb(44, 43, 43);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+.task{
+    flex: 1;
+}
